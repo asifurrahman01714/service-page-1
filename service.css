@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.service{
+	
+	background: #000000ab;
+}
+.service-wrapping{
+	
+}
+.col_service{
+
+box-shadow: 0 0 BLACK;
+
+padding: 37px 9px;
+
+transition: .5s all;
+
+/* border-bottom: 1px solid; */
+
+width: -101%;
+
+border-right: 1px solid;
+}
+.col_service:hover{
+	
+box-shadow: 6px 7px 15px #7e8ea0;
+}
+.service h1{
+
+text-align: center;
+
+text-transform: uppercase;
+
+font-size: 50px;
+
+font-weight: 700;
+
+color: white;
+
+margin-bottom: 60px;
+}
+
+.service h1{
+	position: relative;
+  }
+  .service h1::after{
+	content: '';
+	height: 6px;
+	width: 271px;
+	background: #ababaa;
+	position: absolute;
+	top: 56%;
+	transform: translateX(-0%,);
+	left: 39%;
+	margin-top: 65px;
+	z-index: 999;
+	}
+  .service h1::before{
+		content: '';	
+		height: 18px;	
+		width: 30px;	
+		background: #85cac9;	
+		position: absolute;	
+		top: 47%;	
+		transform: translateX(-0%,);	
+		animation:icon-ani 2.2s linear infinite;	
+		animation-direction: alternate;	
+		left: 39%;	
+		margin-top: 65px;	
+		z-index: 9999999;
+	
+}
+
+  @keyframes icon-ani{
+			0%{
+				transform: translateX(-160px%);
+				
+		}
+			100%{
+				transform: translateX(225px);
+		
+				} 
+  }
+  
+.icon-box{
+		border: none;
+		border: 1ps solid;
+		border: 1px solid #7b9ec3;
+		display: inline-block;
+		transform: rotate(45deg);
+		height: 41px;
+		width: 40px;
+}
+
+.icon-box i{
+	
+		transform: rotate(-45deg);	
+		margin-top: 12px;	
+		margin-left: -5px;	
+		padding-bottom: -9px;
+		line-height: 10px;
+		color: #050519;
+}
+.service-box{
+
+}
+.service-box h5{
+	margin-top: 25px;
+	text-transform: uppercase;
+	color: white;
+}
+.service-box p{
+	color: #b9af9c;
+}
+.btn-service{
+
+		color: #fff;
+		background-color: #262a2f;
+		border-color: #3e4750;
+}
+.btn-service:hover{
+		
+	background-color: #7c828a;			
+	border-color: #3e4750;
+}
+
+@media (min-width: 319.99px) and (max-width: 425.98px){
+	.service h1::after {
+		
+		left: 19%;
+	
+	}
+	.service h1::before {
+		left: 22%;
+	}
+
+
+	.col_service {
+		border: 1px solid;
+		margin: 20px;
+		border-radius: 3%;
+	}
+
+}
+
+@media (min-width: 425.99px) and (max-width: 575.98px){
+	.service h1::after {
+		
+		left: 19%;
+	
+	}
+	.service h1::before {
+		left: 22%;
+	}
+
+
+	.col_service {
+		border: 1px solid;
+		margin: 20px;
+		border-radius: 3%;
+	}
+
+}
+
+@media (min-width: 575.99px) and (max-width: 767.98px){
+
+
+}
+
+@media (min-width: 767.99px) and (max-width: 1024px){
+
+
+}
