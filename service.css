@@ -47,9 +47,24 @@ padding: 122px 0;
 .service-wrapping{
 	
 }
+.box{
+
+padding: 14px 0px;
+
+transition: .7s all ease;
+}
+.box:hover{
+	/* border: 1px solid; */
+	/* padding-top: 14px; */
+	box-shadow: 4px 5px 8px #606e7b;
+	background: #464343;
+	padding: 14px 3px;
+	/* box-shadow: 0 0 black; */
+	transform: translatey(-3px);
+}
 .col_service{
 
-box-shadow: 0 0 BLACK;
+/* box-shadow: 0 0 BLACK; */
 
 padding: 37px 9px;
 
@@ -65,7 +80,7 @@ background: #4e4d4d;
 }
 .col_service:hover{
 	
-box-shadow: 6px 7px 15px #7e8ea0;
+/* box-shadow: 6px 7px 15px #7e8ea0; */
 }
 .service h1{
 
@@ -323,9 +338,10 @@ padding-bottom: 130px;
 
 
 .col_service {
-		border: 1px solid;
+		/* border: 1px solid; */
 		margin: 20px;
-		border-radius: 3%;
+		/* border-radius: 3%; */
+		border: none;
 }
 .software h1 {
 		font-size: 34px;
@@ -370,9 +386,10 @@ padding-bottom: 130px;
 	
 	
 	.col_service {
-			border: 1px solid;
+			/* border: 1px solid; */
 			margin: 20px;
-			border-radius: 3%;
+			/* border-radius: 3%; */
+			border: none;
 	}
 	.software h1 {
 			font-size: 34px;
@@ -417,9 +434,10 @@ padding-bottom: 130px;
 	
 	
 	.col_service {
-			border: 1px solid;
+			/* border: 1px solid; */
 			margin: 20px;
-			border-radius: 3%;
+			/* border-radius: 3%; */
+			border: none;
 	}
 	.software h1 {
 			font-size: 25px;
